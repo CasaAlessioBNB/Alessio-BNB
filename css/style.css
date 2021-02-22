@@ -1,0 +1,166 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+Body {
+font-family: 'Mali', cursive;
+background-color: #E2EAFC;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #1a237e;
+}
+
+nav .brand-logo {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+}
+nav ul a,
+.navbar-buttons {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+}
+
+.nav-wrapper{
+  padding:0px;
+}
+
+p {
+  line-height: 2rem
+  font-size: 1.2em;
+}
+.fixed-navbar {
+padding-left: 60px;
+padding-right: 60px;
+background-color: #E2EAFC;
+
+}
+
+.sidenav-trigger {
+  color: #1a237e;
+}
+
+.parallax-container {
+  min-height:420px;
+  line-height: 3;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+h1{
+ font-family: 'Original Surfer', cursive;
+ font-size: 3em;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.header-subtitle {
+  margin-top:20px;
+  font-size:17px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px){
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper{
+    padding:5px;
+  }
+}
+
+.col-services {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+#services h5 {
+  line-height: 1.4em;
+}
+
+h3 {
+font-size: 2.3em;
+}
+
+.section-registration {
+  height:100%;
+  width:100%;
+}
+
+.gallery-icon {
+  font-size: 1.8em;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #1a237e;
+}
+.gallery-icon:hover {
+color: #a7c957;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.btn-email {
+  width: 100px;
+}
+.btn-contacts{
+  width: 100px;
+}
+
+.section-signin{
+  height:100%;
+  width:100%;
+}
+
+h4 {
+font-size: 2.2em;
+}
+
+h6 {
+font-size: 20px;
+}
+
+.social-icons {
+  font-size: 1.8em;
+  color:#1a237e;
+  padding: 10px;
+}
+.social-icons:hover {
+color: #a7c957;
+}
+
+.contact-icons {
+  font-size: 1.2em;
+  color:#1a237e; 
+}
+
+.aboutus-icon {
+  font-size: 15px;
+}
+
+
+footer.page-footer {
+  background-color: #E2EAFC;
+  margin: 0;
+}
