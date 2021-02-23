@@ -151,14 +151,23 @@ color: #a7c957;
 }
 
 .contact-icons {
-  font-size: 1.2em;
+  font-size: 17px;
   color:#1a237e; 
+}
+
+.mail-icons {
+  font-family: 'Mali';
+  font-size: 16px;
+  color:#1a237e; 
+}
+
+.mail-icons:hover {
+color: #a7c957;
 }
 
 .aboutus-icon {
   font-size: 15px;
 }
-
 
 footer.page-footer {
   background-color: #E2EAFC;
